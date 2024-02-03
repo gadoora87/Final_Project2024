@@ -1,0 +1,359 @@
+﻿<Window x:Class="PresentationLayer.CustomerForms.FrmCustomer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer.CustomerForms"
+        mc:Ignorable="d"
+        Title="FrmCustomer" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="250"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Label x:Name="lblTitle" Content="CustomerForm"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label x:Name="lblAddCustomer" Content="Add Customer"
+                           HorizontalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblGivenName" Content="Given Name"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtGivenName"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblFamilyName" Content="Family Name"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtFamilyName"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblPhoneNumber" Content="Phone number"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtPhoneNumber"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblEmail" Content="Email"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtEmail"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblLine1" Content="Line1"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtLine1"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblLine2" Content="Line 2"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtLine2"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="7">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblZipcode" Content="Zipcode"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <!--<TextBox x:Name=""/>-->
+                        <ComboBox x:Name="comboZipCode"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="8"></Grid>
+                <Grid Grid.Row="9">
+                    <Button x:Name="btnSubmit" Content="Add Customer" Click="btnCustomerSubmit_Click"
+                            HorizontalAlignment="Center"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label x:Name="lblAddZipcode" Content="Add Zipcode"
+                           HorizontalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="1"></Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblNewZipcode" Content="Zipcode"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtNewZipcode"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblCity" Content="City"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtCity"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblState" Content="state"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtState"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Button x:Name="btnAddZipCode" Content="Add Zipcode" HorizontalAlignment="Center" Click="btnAddZipCode_Click"/>
+                </Grid>
+                <Grid Grid.Row="6"></Grid>
+                <Grid Grid.Row="7"></Grid>
+                <Grid Grid.Row="8"></Grid>
+                <Grid Grid.Row="9"></Grid>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label x:Name="lblCreditCard" Content="Add Credit Card" HorizontalAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblCustomerName" Content="Customer"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <ComboBox x:Name="comboCustomers"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblZipcodeCard" Content="Zipcode"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <ComboBox x:Name="comboZipcodeCard"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblCreditCardNumber" Content="CC Number"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtCCNumber"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblCVV" Content="CVV"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtCVV"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblDateOfBirth" Content="Date of Birth"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtDateOfBirth"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lblNameOnCard" Content="name On Card"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txtNameOnCard"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="7">
+                    <Button x:Name="btnAddCard" Content="Add Card" HorizontalAlignment="Center" Click="btnAddCard_Click"/>
+                </Grid>
+                <Grid Grid.Row="8"></Grid>
+                <Grid Grid.Row="9"></Grid>
+            </Grid>
+            <Grid Grid.Column="3">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0"></Grid>
+                <Grid Grid.Row="1"></Grid>
+                <Grid Grid.Row="2"></Grid>
+                <Grid Grid.Row="3"></Grid>
+                <Grid Grid.Row="4"></Grid>
+                <Grid Grid.Row="5"></Grid>
+                <Grid Grid.Row="6"></Grid>
+                <Grid Grid.Row="7"></Grid>
+                <Grid Grid.Row="8"></Grid>
+                <Grid Grid.Row="9"></Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="110"/>
+                <ColumnDefinition Width="110"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <ComboBox x:Name="comboTransactionCustomer"/>
+            </Grid>
+            <Grid Grid.Column="1">
+                <ComboBox x:Name="comboTransactionProduct"/>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Label x:Name="lblTransactionPrice" Content="price" HorizontalAlignment="Center"/>
+            </Grid>
+            <Grid Grid.Column="3">
+                <TextBox x:Name="txtTransactionPrice" />
+            </Grid>
+            <Grid Grid.Column="4">
+                <Label x:Name="lblTransactionDate" Content="Date"/>
+            </Grid>
+            <Grid Grid.Column="5">
+                <TextBox x:Name="txtTransactionDate"/>
+            </Grid>
+            <Grid Grid.Column="6">
+                <Button x:Name="btnTransactionSubmit" Content="Add transaction" Click="btnTransactionSubmit_Click"/>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="541*"/>
+                <ColumnDefinition Width="259*"/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lblFormNote" Grid.ColumnSpan="2" />
+        </Grid>
+        <Grid Grid.Row="4">
+            <DataGrid x:Name="dgTransaction"/>
+        </Grid>
+    </Grid>
+</Window>

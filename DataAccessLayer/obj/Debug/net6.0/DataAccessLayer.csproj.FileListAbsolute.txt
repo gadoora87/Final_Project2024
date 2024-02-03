@@ -1,0 +1,46 @@
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\SportDressApp\SportDress\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.sourcelink.json
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\DataObjects.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\DataAccessLayer\bin\Debug\net6.0\DataObjects.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.deps.json
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\DataObjects.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\DataObjects.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.csproj.CopyComplete
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\refint\DataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\DataAccessLayer\obj\Debug\net6.0\ref\DataAccessLayer.dll

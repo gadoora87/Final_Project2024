@@ -1,0 +1,475 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\TestLogicLayer\\TestLogicLayer.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj",
+        "projectName": "DataObjects",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\FakeDataAccessLayer\\FakeDataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\FakeDataAccessLayer\\FakeDataAccessLayer.csproj",
+        "projectName": "FakeDataAccessLayer",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\FakeDataAccessLayer\\FakeDataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\FakeDataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj",
+        "projectName": "IDataAccessLayer",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj",
+        "projectName": "ILogicLayer",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\LogicLayer2\\LogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\LogicLayer2\\LogicLayer.csproj",
+        "projectName": "LogicLayer",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\LogicLayer2\\LogicLayer.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\LogicLayer2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\TestLogicLayer\\TestLogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\TestLogicLayer\\TestLogicLayer.csproj",
+        "projectName": "TestLogicLayer",
+        "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\TestLogicLayer\\TestLogicLayer.csproj",
+        "packagesPath": "C:\\Users\\gadoo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\TestLogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gadoo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\DataObjects\\DataObjects.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\FakeDataAccessLayer\\FakeDataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\FakeDataAccessLayer\\FakeDataAccessLayer.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\IDataAccessLayer\\IDataAccessLayer.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\ILogicLayer\\ILogicLayer.csproj"
+              },
+              "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\LogicLayer2\\LogicLayer.csproj": {
+                "projectPath": "C:\\Users\\gadoo\\Downloads\\SportDress-main (2)\\SportDress-main\\LogicLayer2\\LogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

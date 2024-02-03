@@ -1,0 +1,109 @@
+﻿<Window x:Class="PresentationLayer.Manager.FrmProductImage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer.Manager"
+        mc:Ignorable="d"
+        Title="FrmProductImage" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80" x:Name="rowHeader"/>
+            <RowDefinition x:Name="rowMain"/>
+            <RowDefinition x:Name="rowFooter" Height="120"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="colLeft" Width="200"/>
+                <ColumnDefinition x:Name="colMid"/>
+                <ColumnDefinition x:Name="colRight" Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0"></Grid>
+            <Grid Grid.Column="1">
+                <Label Name="lblTitle" Content="Product Images" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="40"/>
+            </Grid>
+            <Grid Grid.Column="2"></Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0"></Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label x:Name="lblProductId" Content="ProductId"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Label x:Name="lblURL" Content="URL"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Button x:Name="btnsubmit" Content="submit" Click="btnSubmit_Click"/>
+                </Grid>
+                <Grid Grid.Row="4">
+                </Grid>
+                <Grid Grid.Row="5">
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <ComboBox x:Name="comboProductId"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                  
+                    <TextBox x:Name="txtURL"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                </Grid>
+                <Grid Grid.Row="3">
+                </Grid>
+                <Grid Grid.Row="4">
+                </Grid>
+                <Grid Grid.Row="5">
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="3"></Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Label x:Name="lblFormMessage" />
+                </Grid>
+                <Grid Grid.Column="1"></Grid>
+                <Grid Grid.Column="2"></Grid>
+                <Grid Grid.Column="3"></Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\PresentationLayer2\\PresentationLayer.csproj": {}
+  },
+  "projects": {
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj"
+              },
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\IDataAccessLayer\\IDataAccessLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\IDataAccessLayer\\IDataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj",
+        "projectName": "DataObjects",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\IDataAccessLayer\\IDataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\IDataAccessLayer\\IDataAccessLayer.csproj",
+        "projectName": "IDataAccessLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\IDataAccessLayer\\IDataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\IDataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\ILogicLayer\\ILogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\ILogicLayer\\ILogicLayer.csproj",
+        "projectName": "ILogicLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\ILogicLayer\\ILogicLayer.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\ILogicLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\LogicLayer2\\LogicLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\LogicLayer2\\LogicLayer.csproj",
+        "projectName": "LogicLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\LogicLayer2\\LogicLayer.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\LogicLayer2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataAccessLayer\\DataAccessLayer.csproj"
+              },
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj"
+              },
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\ILogicLayer\\ILogicLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\ILogicLayer\\ILogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\PresentationLayer2\\PresentationLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\PresentationLayer2\\PresentationLayer.csproj",
+        "projectName": "PresentationLayer",
+        "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\PresentationLayer2\\PresentationLayer.csproj",
+        "packagesPath": "C:\\Users\\Samar\\.nuget\\packages\\",
+        "outputPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\PresentationLayer2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Samar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\DataObjects\\DataObjects.csproj"
+              },
+              "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\LogicLayer2\\LogicLayer.csproj": {
+                "projectPath": "D:\\Awaab\\Kirkwood\\Tutor\\Dotnet2\\Gadora\\github\\SportDress\\LogicLayer2\\LogicLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-rc.1.23455.8\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

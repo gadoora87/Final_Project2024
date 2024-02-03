@@ -1,0 +1,35 @@
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\FakeDataAccessLayer.deps.json
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\FakeDataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\FakeDataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\DataObjects.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\DataObjects.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.csproj.AssemblyReference.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.AssemblyInfoInputs.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.AssemblyInfo.cs
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.sourcelink.json
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.csproj.CopyComplete
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\refint\FakeDataAccessLayer.dll
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.pdb
+D:\Awaab\Kirkwood\Tutor\Dotnet2\Gadora\github\SportDress\FakeDataAccessLayer\obj\Debug\net6.0\ref\FakeDataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\FakeDataAccessLayer.deps.json
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\FakeDataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\FakeDataAccessLayer.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\DataObjects.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\DataObjects.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\bin\Debug\net6.0\IDataAccessLayer.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.AssemblyInfo.cs
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.csproj.CopyComplete
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\refint\FakeDataAccessLayer.dll
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\FakeDataAccessLayer.pdb
+C:\Users\gadoo\Downloads\SportDress-main (2)\SportDress-main\FakeDataAccessLayer\obj\Debug\net6.0\ref\FakeDataAccessLayer.dll

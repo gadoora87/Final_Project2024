@@ -1,0 +1,247 @@
+﻿<Window x:Class="PresentationLayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PresentationLayer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition />
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition Width="300" />
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0"></Grid>
+            <Grid Grid.Column="1"></Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="65"/>
+                        <ColumnDefinition Width="190"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lbl_username" Content="username"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <TextBox x:Name="txt_username" TextWrapping="Wrap"/>
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="65"/>
+                        <ColumnDefinition Width="190"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Label x:Name="lbl_password" Content="password"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <PasswordBox x:Name="txt_password" />
+                    </Grid>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="65"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button x:Name="btnLogin" Content="login" Click="btnLogin_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Label x:Name="lblLoginMessages" Content=""/>
+                    </Grid>
+                </Grid>
+            </Grid>
+
+        </Grid>
+        <Grid Grid.Row="1" x:Name="gridBody">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Button x:Name="btnAdmin">Admin</Button>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Button x:Name="btnManager">Manager</Button>
+                </Grid>
+                <Grid Grid.Column="2">
+                    <Button x:Name="btnReciption">Reciption</Button>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="1" x:Name="gridAdminMenu">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button x:Name="btnNewUser" Click="btnNewUserClicked">New User</Button>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button x:Name="btnShowAll" Click="btnShowAll_Click">ShowAll</Button>
+                    </Grid>
+                    <Grid Grid.Column="2"></Grid>
+                    <Grid Grid.Column="3"></Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="311*"/>
+                        <ColumnDefinition Width="61*"/>
+                        <ColumnDefinition Width="428*"/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid x:Name="dgEmployees" Grid.ColumnSpan="3" SelectionMode="Single" CanUserAddRows="False" CanUserDeleteRows="False" CanUserResizeRows="False" IsReadOnly="True" MouseDoubleClick="dgEmployees_MouseDoubleClick"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button x:Name="btnDelete" Content="Delete" Width="80" Click="btnDelete_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Label x:Name="lblDeleteSpan" Content=""/>
+                    </Grid>
+                    <Grid Grid.Column="2"></Grid>
+                </Grid>
+            </Grid>
+            <Grid  Grid.Row="1" x:Name="gridManagerMenu">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button x:Name="btnProductTypes" Content="Product Types" Click="btnProductTypes_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button x:Name="btnProductSizes" Content="Product Sizes" Click="btnProductSizes_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Button x:Name="btnProducts" Content="Products" Click="btnProducts_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="3">
+                        <Button x:Name="btnProductImages" Content="Product Images" Click="btnProductImages_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="4"></Grid>
+                    <Grid Grid.Column="5"></Grid>
+                    <Grid Grid.Column="6"></Grid>
+                    <Grid Grid.Column="7"></Grid>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <DataGrid x:Name="dataGridProducts" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" MouseDoubleClick="dataGridProducts_MouseDoubleClick"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="200"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button x:Name="btnAddProductType" Content="Add Product Type" Click="btnAddProductType_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="1">
+                        <Button x:Name="btnAddProductSize" Content="Add Product Size" Click="btnAddProductSize_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="2">
+                        <Button x:Name="btnAddProducts" Content="Add Product" Click="btnAddProducts_Click"/>
+                    </Grid>
+                    <Grid Grid.Column="3">
+                        <Button x:Name="btnAddProductImages" Content="Add Product Image" Click="btnAddProductImages_Click"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid  Grid.Row="1" x:Name="gridEmployeeMenu">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="30"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label x:Name="lblEmployeeMenu" Content="Employee Menu"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <DataGrid x:Name="dgCustomers" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" MouseDoubleClick="dgCustomers_MouseDoubleClick"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Grid Grid.Column="0">
+                        <Button x:Name="btnAddNew" Content="Add New" Click="btnAddNew_Click"/>
+                    </Grid>
+                    
+                </Grid>
+                <Grid Grid.Row="3"></Grid>
+                <Grid Grid.Row="4"></Grid>
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="200"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Label x:Name="lblMainPage"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Label x:Name="lblManagerGeneral"/>
+                </Grid>
+            </Grid>
+            <Grid Grid.Column="2"></Grid>
+        </Grid>
+    </Grid>
+</Window>

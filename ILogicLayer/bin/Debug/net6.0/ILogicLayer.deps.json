@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ILogicLayer/1.0.0": {
+        "dependencies": {
+          "DataObjects": "1.0.0"
+        },
+        "runtime": {
+          "ILogicLayer.dll": {}
+        }
+      },
+      "DataObjects/1.0.0": {
+        "runtime": {
+          "DataObjects.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ILogicLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataObjects/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

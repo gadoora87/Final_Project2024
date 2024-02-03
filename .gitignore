@@ -1,0 +1,15 @@
+*/.vs/*
+.vs
+.vs/*
+/PresentationLayer/bin
+PresentationLayer/obj
+DataAccessFake/bin
+DataAccessFake/obj
+IDataAccessLayer/obj
+ILogicLayer/obj
+LogicLayer2/obj
+DataObjects/obj
+.vs/SportDress/DesignTimeBuild
+.vs/*
+.vs/SportDress/v17/*
+*.suo
